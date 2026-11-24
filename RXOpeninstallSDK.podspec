@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ruixueyun/RXOpeninstallSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
   
    s.vendored_frameworks = '*.framework'
   
@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
   s.frameworks = 'AdSupport', 'iAd', 'Foundation', 'UIKit'
   s.libraries = 'sqlite3', 'c++', 'c++abi', 'z'
 #
-  s.platform = :ios, '12.0'
+  s.platform = :ios, '15.0'
   s.dependency 'RXSDK_Pure'
   
 end
